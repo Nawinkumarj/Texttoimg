@@ -18,10 +18,9 @@ async function query() {
 }
 
 button.addEventListener('click',async function(){
-	inputTXT.value = '';
-	
     query().then((response) => {
         const objURL = URL.createObjectURL(response)
         image.src = objURL
+		inputTXT.value = '';
     });
 })
