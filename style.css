@@ -5,7 +5,8 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background: url(/img/bg.jpg);
+    background: url(img/bg.jpg);
+    background-color: black;
     height: 100vh;
     display: flex;
     flex-direction: column;
